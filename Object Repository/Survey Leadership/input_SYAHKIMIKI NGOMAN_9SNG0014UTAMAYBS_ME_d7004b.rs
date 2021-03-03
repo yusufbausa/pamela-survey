@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_SYAHKIMIKI NGOMAN_9SNG0014UTAMAYBS_ME_d7004b</name>
+   <tag></tag>
+   <elementGuidId>cd1f0606-636a-4059-beb0-4373d9b84eec</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@id='9|SNG0014|UTAMA|YBS_MEMBERIKAN_PENGARAHAN_YANG_JELAS_TERKAIT_TUGAS_YANG_DIBERIKAN _KEPADA_TIM/BAWAHAN'])[5]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>radio</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>9|SNG0014|UTAMA|YBS_MEMBERIKAN_PENGARAHAN_YANG_JELAS_TERKAIT_TUGAS_YANG_DIBERIKAN _KEPADA_TIM/BAWAHAN</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>9|SNG0014|UTAMA|YBS_MEMBERIKAN_PENGARAHAN_YANG_JELAS_TERKAIT_TUGAS_YANG_DIBERIKAN _KEPADA_TIM/BAWAHAN</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>5</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>saveToLocalStorage(this)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;div8&quot;)/table[1]/tbody[1]/tr[1]/td[6]/input[@id=&quot;9|SNG0014|UTAMA|YBS_MEMBERIKAN_PENGARAHAN_YANG_JELAS_TERKAIT_TUGAS_YANG_DIBERIKAN _KEPADA_TIM/BAWAHAN&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@id='9|SNG0014|UTAMA|YBS_MEMBERIKAN_PENGARAHAN_YANG_JELAS_TERKAIT_TUGAS_YANG_DIBERIKAN _KEPADA_TIM/BAWAHAN'])[5]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='div8']/table/tbody/tr/td[6]/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[9]/table/tbody/tr/td[6]/input</value>
+   </webElementXpaths>
+</WebElementEntity>

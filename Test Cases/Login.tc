@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login to sister-uat.taf.co.id/pamela/Login.aspx</description>
+   <name>Login</name>
+   <tag>Login</tag>
+   <comment></comment>
+   <testCaseGuid>d19a1fea-2a0a-49bc-85e6-c6953fa05088</testCaseGuid>
+</TestCaseEntity>
