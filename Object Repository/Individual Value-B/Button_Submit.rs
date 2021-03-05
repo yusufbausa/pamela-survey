@@ -3,7 +3,7 @@
    <description></description>
    <name>Button_Submit</name>
    <tag></tag>
-   <elementGuidId>ef416841-b092-4f46-aae9-c04a302c7e9b</elementGuidId>
+   <elementGuidId>e255a7e4-e9ab-4d73-8379-9a9265f793ae</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -15,7 +15,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'submit' and @name = 'ctl00$ContentPlaceHolder2$btnSubmit' and @id = 'ctl00_ContentPlaceHolder2_btnSubmit' and @title = 'Submit']</value>
+         <value>/html/body/section[2]/div/div/div/form/div[3]/div/div/div/input[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -28,14 +28,14 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
@@ -56,14 +56,14 @@
       <value>validate();return false;</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>ctl00_ContentPlaceHolder2_btnSubmit</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>title</name>
       <type>Main</type>
@@ -77,11 +77,11 @@
       <value>btn btn-success m-t-15 waves-effect</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ctl00_ContentPlaceHolder2_btnSubmit&quot;)</value>
+      <value>/html/body/section[2]/div/div/div/form/div[3]/div/div/div/input[3]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -102,14 +102,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='SYAHKIMIKI NGOMAN'])[21]/following::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ROKHAILIS HIDAYAT'])[21]/following::input[6]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jawaban'])[1]/following::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama Karyawan'])[20]/following::input[6]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

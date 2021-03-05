@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Button_Submit</name>
+   <name>Button_Individual_Value_B</name>
    <tag></tag>
-   <elementGuidId>ef416841-b092-4f46-aae9-c04a302c7e9b</elementGuidId>
+   <elementGuidId>be9fbb13-632a-425d-a6dd-afc344289257</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#ctl00_ContentPlaceHolder2_btnSubmit</value>
+         <value>td > a</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='ctl00_ContentPlaceHolder2_btnSubmit']</value>
+         <value>//div[@id='ctl00_ContentPlaceHolder2_divPartB']/table/tbody/tr/td/a</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'submit' and @name = 'ctl00$ContentPlaceHolder2$btnSubmit' and @id = 'ctl00_ContentPlaceHolder2_btnSubmit' and @title = 'Submit']</value>
+         <value>/html/body/section[2]/div/div/div/form/div[3]/div/div/div[2]/div[2]/table/tbody/tr/td[1]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -25,104 +25,90 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>submit</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>ctl00$ContentPlaceHolder2$btnSubmit</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
+      <name>href</name>
       <type>Main</type>
-      <value>Submit</value>
+      <value>SurveyPML.aspx?Form=INDIVIDUAL_VALUE_-_B</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onclick</name>
+      <name>text</name>
       <type>Main</type>
-      <value>validate();return false;</value>
+      <value>INDIVIDUAL_VALUE_-_B</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>ctl00_ContentPlaceHolder2_btnSubmit</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>title</name>
-      <type>Main</type>
-      <value>Submit</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>btn btn-success m-t-15 waves-effect</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ctl00_ContentPlaceHolder2_btnSubmit&quot;)</value>
+      <value>/html/body/section[2]/div/div/div/form/div[3]/div/div/div[2]/div[2]/table/tbody/tr/td[1]/a</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@id='ctl00_ContentPlaceHolder2_btnSubmit']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='Tabs']/input[3]</value>
+      <value>//div[@id='ctl00_ContentPlaceHolder2_divPartB']/table/tbody/tr/td/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'INDIVIDUAL_VALUE_-_B')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='SYAHKIMIKI NGOMAN'])[21]/following::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Selamat Mengisi !'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jawaban'])[1]/following::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jawablah semua pertanyaan dengan jujur dan objektif, dan jangan berpikir terlalu lama.'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'ctl00_ContentPlaceHolder2_btnSubmit', '&quot;', ')')])[1]/preceding::input[5]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='VALUE_-_A'])[1]/preceding::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='VALUE_-_B'])[1]/preceding::a[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='INDIVIDUAL_VALUE_-_B']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'SurveyPML.aspx?Form=INDIVIDUAL_VALUE_-_B')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input[3]</value>
+      <value>//td/a</value>
    </webElementXpaths>
 </WebElementEntity>

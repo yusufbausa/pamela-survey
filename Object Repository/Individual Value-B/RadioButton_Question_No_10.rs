@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Button_Home</name>
+   <name>RadioButton_Question_No_10</name>
    <tag></tag>
-   <elementGuidId>6ea90f46-edf9-41e9-991b-fda3613832ad</elementGuidId>
+   <elementGuidId>70df5d98-155b-4ba1-aab8-9829d9ea1ee0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#ctl00_ContentPlaceHolder2_btnHome</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='ctl00_ContentPlaceHolder2_btnHome']</value>
+         <value>(//input[@id='10|RHD0584|UTAMA|SAYA_MENGUTAMAKAN_KEPENTINGAN_KELOMPOK_DI_ATAS_KEPENTINGAN_PRIBADI'])[5]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'submit' and @name = 'ctl00$ContentPlaceHolder2$btnHome' and @id = 'ctl00_ContentPlaceHolder2_btnHome' and @title = 'Home']</value>
+         <value>/html/body/section[2]/div/div/div/form/div[3]/div/div/div/div[3]/div[10]/table/tbody/tr/td[6]/input</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,87 +28,73 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>submit</value>
+      <value>radio</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>10|RHD0584|UTAMA|SAYA_MENGUTAMAKAN_KEPENTINGAN_KELOMPOK_DI_ATAS_KEPENTINGAN_PRIBADI</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>ctl00$ContentPlaceHolder2$btnHome</value>
+      <value>10|RHD0584|UTAMA|SAYA_MENGUTAMAKAN_KEPENTINGAN_KELOMPOK_DI_ATAS_KEPENTINGAN_PRIBADI</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>&lt;&lt; Home</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>ctl00_ContentPlaceHolder2_btnHome</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>title</name>
-      <type>Main</type>
-      <value>Home</value>
+      <value>5</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>onclick</name>
       <type>Main</type>
-      <value>btn btn-info m-t-15 waves-effect</value>
+      <value>saveToLocalStorage(this)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>checked</name>
+      <type>Main</type>
+      <value>checked</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ctl00_ContentPlaceHolder2_btnHome&quot;)</value>
+      <value>/html/body/section[2]/div/div/div/form/div[3]/div/div/div/div[3]/div[10]/table/tbody/tr/td[6]/input</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='ctl00_ContentPlaceHolder2_btnHome']</value>
+      <value>(//input[@id='10|RHD0584|UTAMA|SAYA_MENGUTAMAKAN_KEPENTINGAN_KELOMPOK_DI_ATAS_KEPENTINGAN_PRIBADI'])[5]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='Tabs']/input[4]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='HOME'])[1]/following::input[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'ctl00_ContentPlaceHolder2_btnHome', '&quot;', ')')])[1]/preceding::input[1]</value>
+      <value>//div[@id='div9']/table/tbody/tr/td[6]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input[4]</value>
+      <value>//div[10]/table/tbody/tr/td[6]/input</value>
    </webElementXpaths>
 </WebElementEntity>
