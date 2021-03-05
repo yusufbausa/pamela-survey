@@ -15,19 +15,4 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
-
-//Oper browser
-WebUI.openBrowser('')
-WebUI.navigateToUrl('https://sister-uat.taf.co.id/pamela/Login.aspx?ReturnUrl=%2fpamela')
-WebUI.delay(2)
-
-//Input credential
-WebUI.setText(findTestObject('Login/Field_Username'), 'KEG2200')
-WebUI.setText(findTestObject('Login/Field_Password'), 'TAFWFH')
-WebUI.click(findTestObject('Login/Button_Sign_In'))
-WebUI.delay(2)
-
-//Close browser
-WebUI.closeBrowser()
 
