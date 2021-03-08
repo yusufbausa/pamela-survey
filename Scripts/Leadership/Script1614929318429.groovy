@@ -29,74 +29,74 @@ WebUI.click(findTestObject('Login/Button_Sign_In'))
 WebUI.delay(2)
 
 //Button survey LEADERSHIP
-WebUI.click(findTestObject('Survey Leadership/Button_LEADERSHIP'))
+WebUI.click(findTestObject('Leadership/Button_LEADERSHIP'))
 WebUI.delay(2)
 
 //Survey Page 1
-WebUI.click(findTestObject('Survey Leadership/RadioButton_Question_No_01'))
-WebUI.click(findTestObject('Survey Leadership/RadioButton_Question_No_02'))
-WebUI.scrollToElement(findTestObject('Survey Leadership/Button_Next'), 3)
-WebUI.click(findTestObject('Survey Leadership/RadioButton_Question_No_03'))
-WebUI.click(findTestObject('Survey Leadership/RadioButton_Question_No_04'))
-WebUI.click(findTestObject('Survey Leadership/RadioButton_Question_No_05'))
+WebUI.click(findTestObject('Leadership/RadioButton_Question_No_01'))
+WebUI.click(findTestObject('Leadership/RadioButton_Question_No_02'))
+WebUI.scrollToElement(findTestObject('Leadership/Button_Next'), 3)
+WebUI.click(findTestObject('Leadership/RadioButton_Question_No_03'))
+WebUI.click(findTestObject('Leadership/RadioButton_Question_No_04'))
+WebUI.click(findTestObject('Leadership/RadioButton_Question_No_05'))
 WebUI.delay(1)
 
 //Button Next
-WebUI.click(findTestObject('Survey Leadership/Button_Next'))
+WebUI.click(findTestObject('Leadership/Button_Next'))
 WebUI.delay(1)
 
 //Survey Page 2
-WebUI.click(findTestObject('Survey Leadership/RadioButton_Question_No_06'))
-WebUI.click(findTestObject('Survey Leadership/RadioButton_Question_No_07'))
-WebUI.scrollToElement(findTestObject('Survey Leadership/Button_Next'), 3)
-WebUI.click(findTestObject('Survey Leadership/RadioButton_Question_No_08'))
-WebUI.click(findTestObject('Survey Leadership/RadioButton_Question_No_09'))
-WebUI.click(findTestObject('Survey Leadership/RadioButton_Question_No_10'))
+WebUI.click(findTestObject('Leadership/RadioButton_Question_No_06'))
+WebUI.click(findTestObject('Leadership/RadioButton_Question_No_07'))
+WebUI.scrollToElement(findTestObject('Leadership/Button_Next'), 3)
+WebUI.click(findTestObject('Leadership/RadioButton_Question_No_08'))
+WebUI.click(findTestObject('Leadership/RadioButton_Question_No_09'))
+WebUI.click(findTestObject('Leadership/RadioButton_Question_No_10'))
 WebUI.delay(1)
 
 //Button Next
-WebUI.click(findTestObject('Survey Leadership/Button_Next'))
+WebUI.click(findTestObject('Leadership/Button_Next'))
 WebUI.delay(1)
 
 //Survey Page 3
-WebUI.click(findTestObject('Survey Leadership/RadioButton_Question_No_11'))
-WebUI.click(findTestObject('Survey Leadership/RadioButton_Question_No_12'))
-WebUI.scrollToElement(findTestObject('Survey Leadership/Button_Next'), 3)
-WebUI.click(findTestObject('Survey Leadership/RadioButton_Question_No_13'))
-WebUI.click(findTestObject('Survey Leadership/RadioButton_Question_No_14'))
-WebUI.click(findTestObject('Survey Leadership/RadioButton_Question_No_15'))
+WebUI.click(findTestObject('Leadership/RadioButton_Question_No_11'))
+WebUI.click(findTestObject('Leadership/RadioButton_Question_No_12'))
+WebUI.scrollToElement(findTestObject('Leadership/Button_Next'), 3)
+WebUI.click(findTestObject('Leadership/RadioButton_Question_No_13'))
+WebUI.click(findTestObject('Leadership/RadioButton_Question_No_14'))
+WebUI.click(findTestObject('Leadership/RadioButton_Question_No_15'))
 WebUI.delay(1)
 
 //Button Next
-WebUI.click(findTestObject('Survey Leadership/Button_Next'))
+WebUI.click(findTestObject('Leadership/Button_Next'))
 WebUI.delay(1)
 
 //Survey Page 4
-WebUI.click(findTestObject('Survey Leadership/RadioButton_Question_No_16'))
-WebUI.click(findTestObject('Survey Leadership/RadioButton_Question_No_17'))
-WebUI.scrollToElement(findTestObject('Survey Leadership/Button_Next'), 3)
-WebUI.click(findTestObject('Survey Leadership/RadioButton_Question_No_18'))
-WebUI.click(findTestObject('Survey Leadership/RadioButton_Question_No_19'))
-WebUI.click(findTestObject('Survey Leadership/RadioButton_Question_No_20'))
+WebUI.click(findTestObject('Leadership/RadioButton_Question_No_16'))
+WebUI.click(findTestObject('Leadership/RadioButton_Question_No_17'))
+WebUI.scrollToElement(findTestObject('Leadership/Button_Next'), 3)
+WebUI.click(findTestObject('Leadership/RadioButton_Question_No_18'))
+WebUI.click(findTestObject('Leadership/RadioButton_Question_No_19'))
+WebUI.click(findTestObject('Leadership/RadioButton_Question_No_20'))
 WebUI.delay(1)
 
 //Button Next
-WebUI.click(findTestObject('Survey Leadership/Button_Next'))
+WebUI.click(findTestObject('Leadership/Button_Next'))
 WebUI.delay(1)
 
 //Survey Page 5 (Text Field)
-WebUI.setText(findTestObject('Survey Leadership/Textarea_Strength_Weakness'), '1. Strength = Teliti, Akurat, Disiplin\n2. Weakness = Tidak ada')
+WebUI.setText(findTestObject('Leadership/Textarea_Strength_Weakness'), '1. Strength = Teliti, Akurat, Disiplin\n2. Weakness = Tidak ada')
 WebUI.delay(1)
 
 //Button Submit
-WebUI.click(findTestObject('Survey Leadership/Button_Submit'))
+WebUI.click(findTestObject('Leadership/Button_Submit'))
 
 //Taking Screenshot
 WebUI.takeScreenshot()
 WebUI.delay(2)
 
 //Back to Home
-WebUI.click(findTestObject('Survey Leadership/Button_Home'))
+WebUI.click(findTestObject('Leadership/Button_Home'))
 WebUI.delay(3)
 
 

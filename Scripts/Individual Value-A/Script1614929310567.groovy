@@ -17,67 +17,70 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+//Oper browser
 WebUI.openBrowser('')
-
 WebUI.navigateToUrl('https://sister-uat.taf.co.id/pamela/Login.aspx?ReturnUrl=%2fpamela')
+WebUI.delay(2)
 
-WebUI.setText(findTestObject('Object Repository/Survey Individual Value-A/input_person_txtUsername'), 'KEG2200')
+//Input credential
+WebUI.setText(findTestObject('Login/Field_Username'), 'BMU0300')
+WebUI.setText(findTestObject('Login/Field_Password'), 'TAFWFH')
+WebUI.click(findTestObject('Login/Button_Sign_In'))
+WebUI.delay(2)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Survey Individual Value-A/input_lock_txtPassword'), 'yqhJ93vELC0=')
+//Button Individual Value A
+WebUI.click(findTestObject('Individual Value-A/a_INDIVIDUAL_VALUE_-_A'))
 
-WebUI.sendKeys(findTestObject('Object Repository/Survey Individual Value-A/input_lock_txtPassword'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/Survey Individual Value-A/a_INDIVIDUAL_VALUE_-_A'))
+WebUI.click(findTestObject('Individual Value-A/input_KELVIANDI GOUW_1KEG2200UTAMASAYA_BEKE_af08de'))
 
-WebUI.click(findTestObject('Object Repository/Survey Individual Value-A/input_KELVIANDI GOUW_1KEG2200UTAMASAYA_BEKE_af08de'))
+WebUI.click(findTestObject('Individual Value-A/input_KELVIANDI GOUW_2KEG2200UTAMASAYA_BERT_957eb3'))
 
-WebUI.click(findTestObject('Object Repository/Survey Individual Value-A/input_KELVIANDI GOUW_2KEG2200UTAMASAYA_BERT_957eb3'))
+WebUI.click(findTestObject('Individual Value-A/input_KELVIANDI GOUW_3KEG2200UTAMASAYA_MEMI_67e805'))
 
-WebUI.click(findTestObject('Object Repository/Survey Individual Value-A/input_KELVIANDI GOUW_3KEG2200UTAMASAYA_MEMI_67e805'))
+WebUI.click(findTestObject('Individual Value-A/input_KELVIANDI GOUW_4KEG2200UTAMASAYA_MEMA_2cdaff'))
 
-WebUI.click(findTestObject('Object Repository/Survey Individual Value-A/input_KELVIANDI GOUW_4KEG2200UTAMASAYA_MEMA_2cdaff'))
+WebUI.click(findTestObject('Individual Value-A/input_KELVIANDI GOUW_5KEG2200UTAMASAYA_BEKE_46dcfa'))
 
-WebUI.click(findTestObject('Object Repository/Survey Individual Value-A/input_KELVIANDI GOUW_5KEG2200UTAMASAYA_BEKE_46dcfa'))
+WebUI.click(findTestObject('Individual Value-A/input_KELVIANDI GOUW_ctl00ContentPlaceHolde_c21536'))
 
-WebUI.click(findTestObject('Object Repository/Survey Individual Value-A/input_KELVIANDI GOUW_ctl00ContentPlaceHolde_c21536'))
+WebUI.click(findTestObject('Individual Value-A/input_KELVIANDI GOUW_6KEG2200UTAMASAYA_MAMP_e811dc'))
 
-WebUI.click(findTestObject('Object Repository/Survey Individual Value-A/input_KELVIANDI GOUW_6KEG2200UTAMASAYA_MAMP_e811dc'))
+WebUI.click(findTestObject('Individual Value-A/input_KELVIANDI GOUW_7KEG2200UTAMASAYA_DAPA_1c3a5c'))
 
-WebUI.click(findTestObject('Object Repository/Survey Individual Value-A/input_KELVIANDI GOUW_7KEG2200UTAMASAYA_DAPA_1c3a5c'))
+WebUI.click(findTestObject('Individual Value-A/input_KELVIANDI GOUW_8KEG2200UTAMASAYA_MENU_544e6c'))
 
-WebUI.click(findTestObject('Object Repository/Survey Individual Value-A/input_KELVIANDI GOUW_8KEG2200UTAMASAYA_MENU_544e6c'))
+WebUI.click(findTestObject('Individual Value-A/input_KELVIANDI GOUW_9KEG2200UTAMASAYA_DAPA_c45408'))
 
-WebUI.click(findTestObject('Object Repository/Survey Individual Value-A/input_KELVIANDI GOUW_9KEG2200UTAMASAYA_DAPA_c45408'))
+WebUI.click(findTestObject('Individual Value-A/input_KELVIANDI GOUW_10KEG2200UTAMAKEBERADA_c88d42'))
 
-WebUI.click(findTestObject('Object Repository/Survey Individual Value-A/input_KELVIANDI GOUW_10KEG2200UTAMAKEBERADA_c88d42'))
+WebUI.click(findTestObject('Individual Value-A/input_KELVIANDI GOUW_ctl00ContentPlaceHolde_c21536'))
 
-WebUI.click(findTestObject('Object Repository/Survey Individual Value-A/input_KELVIANDI GOUW_ctl00ContentPlaceHolde_c21536'))
+WebUI.click(findTestObject('Individual Value-A/input_KELVIANDI GOUW_11KEG2200UTAMASAYA_TID_af2862'))
 
-WebUI.click(findTestObject('Object Repository/Survey Individual Value-A/input_KELVIANDI GOUW_11KEG2200UTAMASAYA_TID_af2862'))
+WebUI.click(findTestObject('Individual Value-A/input_KELVIANDI GOUW_12KEG2200UTAMASAYA_MEM_4e6179'))
 
-WebUI.click(findTestObject('Object Repository/Survey Individual Value-A/input_KELVIANDI GOUW_12KEG2200UTAMASAYA_MEM_4e6179'))
+WebUI.click(findTestObject('Individual Value-A/input_KELVIANDI GOUW_13KEG2200UTAMASAYA_TID_4f986b'))
 
-WebUI.click(findTestObject('Object Repository/Survey Individual Value-A/input_KELVIANDI GOUW_13KEG2200UTAMASAYA_TID_4f986b'))
+WebUI.click(findTestObject('Individual Value-A/input_KELVIANDI GOUW_14KEG2200UTAMASAYA_MEM_1a9c36'))
 
-WebUI.click(findTestObject('Object Repository/Survey Individual Value-A/input_KELVIANDI GOUW_14KEG2200UTAMASAYA_MEM_1a9c36'))
+WebUI.click(findTestObject('Individual Value-A/input_KELVIANDI GOUW_15KEG2200UTAMASAYA_MEN_7095b3'))
 
-WebUI.click(findTestObject('Object Repository/Survey Individual Value-A/input_KELVIANDI GOUW_15KEG2200UTAMASAYA_MEN_7095b3'))
+WebUI.click(findTestObject('Individual Value-A/input_KELVIANDI GOUW_ctl00ContentPlaceHolde_c21536'))
 
-WebUI.click(findTestObject('Object Repository/Survey Individual Value-A/input_KELVIANDI GOUW_ctl00ContentPlaceHolde_c21536'))
+WebUI.click(findTestObject('Individual Value-A/input_KELVIANDI GOUW_16KEG2200UTAMASAYA_MEM_f16952'))
 
-WebUI.click(findTestObject('Object Repository/Survey Individual Value-A/input_KELVIANDI GOUW_16KEG2200UTAMASAYA_MEM_f16952'))
+WebUI.click(findTestObject('Individual Value-A/input_KELVIANDI GOUW_17KEG2200UTAMASAYA_PRO_8aaf72'))
 
-WebUI.click(findTestObject('Object Repository/Survey Individual Value-A/input_KELVIANDI GOUW_17KEG2200UTAMASAYA_PRO_8aaf72'))
+WebUI.click(findTestObject('Individual Value-A/input_KELVIANDI GOUW_18KEG2200UTAMASAYA_BER_1936ee'))
 
-WebUI.click(findTestObject('Object Repository/Survey Individual Value-A/input_KELVIANDI GOUW_18KEG2200UTAMASAYA_BER_1936ee'))
+WebUI.click(findTestObject('Individual Value-A/input_KELVIANDI GOUW_19KEG2200UTAMASAYA_MEL_0dcf6a'))
 
-WebUI.click(findTestObject('Object Repository/Survey Individual Value-A/input_KELVIANDI GOUW_19KEG2200UTAMASAYA_MEL_0dcf6a'))
+WebUI.click(findTestObject('Individual Value-A/input_KELVIANDI GOUW_20KEG2200UTAMASAYA_MEN_ea69c5'))
 
-WebUI.click(findTestObject('Object Repository/Survey Individual Value-A/input_KELVIANDI GOUW_20KEG2200UTAMASAYA_MEN_ea69c5'))
+WebUI.click(findTestObject('Individual Value-A/input_KELVIANDI GOUW_ctl00ContentPlaceHolde_de1dcd'))
 
-WebUI.click(findTestObject('Object Repository/Survey Individual Value-A/input_KELVIANDI GOUW_ctl00ContentPlaceHolde_de1dcd'))
-
-WebUI.click(findTestObject('Object Repository/Survey Individual Value-A/input_HOME_ctl00ContentPlaceHolder2btnHome'))
+WebUI.click(findTestObject('Individual Value-A/input_HOME_ctl00ContentPlaceHolder2btnHome'))
 
 WebUI.closeBrowser()
 
