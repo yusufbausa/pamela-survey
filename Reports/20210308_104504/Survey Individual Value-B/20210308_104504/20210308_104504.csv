@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Survey Individual Value-B,Chrome 89.0.4389.82,,,2021-03-08 10:45:07,2021-03-08 10:46:10,1m - 2.819s,FAILED
+,,,,,,,
+Test Cases/Individual Value-B - DD,Chrome 89.0.4389.82,,,2021-03-08 10:45:09,2021-03-08 10:46:10,1m - 1.163s,FAILED
+"openBrowser("""")",Chrome 89.0.4389.82,,,2021-03-08 10:45:10,2021-03-08 10:45:13,3.112s,PASSED
+"navigateToUrl(""https://sister-uat.taf.co.id/pamela/Login.aspx?ReturnUrl=%2fpamela"")",Chrome 89.0.4389.82,,,2021-03-08 10:45:13,2021-03-08 10:45:21,8.558s,PASSED
+delay(2),Chrome 89.0.4389.82,,,2021-03-08 10:45:21,2021-03-08 10:45:23,2.051s,PASSED
+"setText(findTestObject(""Login/Field_Username""), username)",Chrome 89.0.4389.82,,,2021-03-08 10:45:23,2021-03-08 10:45:24,0.406s,PASSED
+"setText(findTestObject(""Login/Field_Password""), password)",Chrome 89.0.4389.82,,,2021-03-08 10:45:24,2021-03-08 10:45:24,0.331s,PASSED
+"click(findTestObject(""Login/Button_Sign_In""))",Chrome 89.0.4389.82,,,2021-03-08 10:45:24,2021-03-08 10:45:24,0.269s,PASSED
+delay(2),Chrome 89.0.4389.82,,,2021-03-08 10:45:24,2021-03-08 10:45:26,2.019s,PASSED
+"click(findTestObject(""Individual Value-B/Button_Individual_Value_B""))",Chrome 89.0.4389.82,,,2021-03-08 10:45:26,2021-03-08 10:45:29,2.765s,PASSED
+delay(2),Chrome 89.0.4389.82,,,2021-03-08 10:45:29,2021-03-08 10:45:31,2.016s,PASSED
+"click(findTestObject(""Individual Value-B/RadioButton_Question_No_01 - DD"", [""q1"":""""]))",Chrome 89.0.4389.82,,,2021-03-08 10:45:31,2021-03-08 10:46:03,31.601s,FAILED
+Video,Chrome 89.0.4389.82,,,2021-03-08 10:46:10,2021-03-08 10:46:10,0.001s,PASSED

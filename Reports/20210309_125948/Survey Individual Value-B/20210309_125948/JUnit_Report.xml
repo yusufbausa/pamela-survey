@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Survey Individual Value-B" time="43.789" tests="1" failures="0" skips="0" errors="0">
+   <testsuite name="Survey Individual Value-B" tests="1" failures="0" errors="0" time="43.789" skips="0" timestamp="2021-03-09 12:59:57" hostname="yusufbausa - DESKTOP-2GEK8P6" id="Test Suites/Survey Individual Value-B">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\yubas\\git\\pamela-survey\\Reports\\20210309_125948\\Survey Individual Value-B\\20210309_125948"/>
+         <property name="logFiles" value="C:\\Users\\yubas\\git\\pamela-survey\\Reports\\20210309_125948\\Survey Individual Value-B\\20210309_125948\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\yubas\\git\\pamela-survey\\Reports\\20210309_125948\\Survey Individual Value-B\\20210309_125948\\1615269632045.png"/>
+         <property name="hostName" value="yusufbausa - DESKTOP-2GEK8P6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.8.0.208"/>
+         <property name="browser" value="Chrome 89.0.4389.82"/>
+         <property name="hostAddress" value="192.168.171.228"/>
+         <property name="sessionId" value="18357d3a1b16d4a0024462c707b5bc0c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Individual Value-B - DD" time="41.625" classname="Test Cases/Individual Value-B - DD" status="PASSED">
+         <system-out><![CDATA[2021-03-09 12:59:59 - [TEST_CASE][PASSED] - Test Cases/Individual Value-B - DD: Test Cases/Individual Value-B - DD
+
+2021-03-09 13:00:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-09 13:00:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-09 13:00:02 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2021-03-09 13:00:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-09 13:00:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-09 13:00:05 - [TEST_STEP][PASSED] - navigateToUrl("https://sister-uat.taf.co.id/pamela/Login.aspx?ReturnUrl=%2fpamela"): Navigate to 'https://sister-uat.taf.co.id/pamela/Login.aspx?ReturnUrl=%2fpamela' successfully
+
+2021-03-09 13:00:09 - [MESSAGE][PASSED] - Navigate to 'https://sister-uat.taf.co.id/pamela/Login.aspx?ReturnUrl=%2fpamela' successfully
+
+2021-03-09 13:00:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-03-09 13:00:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-03-09 13:00:11 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Field_Username"), username): Text 'NPD1271' is set on object 'Object Repository/Login/Field_Username'
+
+2021-03-09 13:00:11 - [MESSAGE][PASSED] - Text 'NPD1271' is set on object 'Object Repository/Login/Field_Username'
+
+2021-03-09 13:00:11 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Field_Password"), password): Text 'TAFWFH' is set on object 'Object Repository/Login/Field_Password'
+
+2021-03-09 13:00:12 - [MESSAGE][PASSED] - Text 'TAFWFH' is set on object 'Object Repository/Login/Field_Password'
+
+2021-03-09 13:00:12 - [TEST_STEP][PASSED] - click(findTestObject("Login/Button_Sign_In")): Object: 'Object Repository/Login/Button_Sign_In' is clicked on
+
+2021-03-09 13:00:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Button_Sign_In' is clicked on
+
+2021-03-09 13:00:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-03-09 13:00:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-03-09 13:00:14 - [TEST_STEP][PASSED] - click(findTestObject("Individual Value-B/Button_Individual_Value_B")): Object: 'Object Repository/Individual Value-B/Button_Individual_Value_B' is clicked on
+
+2021-03-09 13:00:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Individual Value-B/Button_Individual_Value_B' is clicked on
+
+2021-03-09 13:00:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-03-09 13:00:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-03-09 13:00:18 - [TEST_STEP][PASSED] - click(findTestObject("Individual Value-B/RadioButton_Question_No_01 - DD", ["username":"", "q1":""])): Object: 'Object Repository/Individual Value-B/RadioButton_Question_No_01 - DD' is clicked on
+
+2021-03-09 13:00:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Individual Value-B/RadioButton_Question_No_01 - DD' is clicked on
+
+2021-03-09 13:00:18 - [TEST_STEP][PASSED] - click(findTestObject("Individual Value-B/RadioButton_Question_No_02 - DD")): Object: 'Object Repository/Individual Value-B/RadioButton_Question_No_02 - DD' is clicked on
+
+2021-03-09 13:00:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Individual Value-B/RadioButton_Question_No_02 - DD' is clicked on
+
+2021-03-09 13:00:18 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Leadership/Button_Next"), 3): Scroll to object 'Object Repository/Leadership/Button_Next' successfully
+
+2021-03-09 13:00:19 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Leadership/Button_Next' successfully
+
+2021-03-09 13:00:19 - [TEST_STEP][PASSED] - click(findTestObject("Individual Value-B/RadioButton_Question_No_03 - DD")): Object: 'Object Repository/Individual Value-B/RadioButton_Question_No_03 - DD' is clicked on
+
+2021-03-09 13:00:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Individual Value-B/RadioButton_Question_No_03 - DD' is clicked on
+
+2021-03-09 13:00:19 - [TEST_STEP][PASSED] - click(findTestObject("Individual Value-B/RadioButton_Question_No_04 - DD")): Object: 'Object Repository/Individual Value-B/RadioButton_Question_No_04 - DD' is clicked on
+
+2021-03-09 13:00:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Individual Value-B/RadioButton_Question_No_04 - DD' is clicked on
+
+2021-03-09 13:00:19 - [TEST_STEP][PASSED] - click(findTestObject("Individual Value-B/RadioButton_Question_No_05 - DD")): Object: 'Object Repository/Individual Value-B/RadioButton_Question_No_05 - DD' is clicked on
+
+2021-03-09 13:00:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Individual Value-B/RadioButton_Question_No_05 - DD' is clicked on
+
+2021-03-09 13:00:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-03-09 13:00:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-03-09 13:00:20 - [TEST_STEP][PASSED] - click(findTestObject("Individual Value-B/Button_Next")): Object: 'Object Repository/Individual Value-B/Button_Next' is clicked on
+
+2021-03-09 13:00:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Individual Value-B/Button_Next' is clicked on
+
+2021-03-09 13:00:21 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-03-09 13:00:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-03-09 13:00:22 - [TEST_STEP][PASSED] - click(findTestObject("Individual Value-B/RadioButton_Question_No_06 - DD")): Object: 'Object Repository/Individual Value-B/RadioButton_Question_No_06 - DD' is clicked on
+
+2021-03-09 13:00:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Individual Value-B/RadioButton_Question_No_06 - DD' is clicked on
+
+2021-03-09 13:00:22 - [TEST_STEP][PASSED] - click(findTestObject("Individual Value-B/RadioButton_Question_No_07 - DD")): Object: 'Object Repository/Individual Value-B/RadioButton_Question_No_07 - DD' is clicked on
+
+2021-03-09 13:00:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Individual Value-B/RadioButton_Question_No_07 - DD' is clicked on
+
+2021-03-09 13:00:22 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Leadership/Button_Next"), 3): Scroll to object 'Object Repository/Leadership/Button_Next' successfully
+
+2021-03-09 13:00:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Leadership/Button_Next' successfully
+
+2021-03-09 13:00:22 - [TEST_STEP][PASSED] - click(findTestObject("Individual Value-B/RadioButton_Question_No_08 - DD")): Object: 'Object Repository/Individual Value-B/RadioButton_Question_No_08 - DD' is clicked on
+
+2021-03-09 13:00:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Individual Value-B/RadioButton_Question_No_08 - DD' is clicked on
+
+2021-03-09 13:00:22 - [TEST_STEP][PASSED] - click(findTestObject("Individual Value-B/RadioButton_Question_No_09 - DD")): Object: 'Object Repository/Individual Value-B/RadioButton_Question_No_09 - DD' is clicked on
+
+2021-03-09 13:00:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Individual Value-B/RadioButton_Question_No_09 - DD' is clicked on
+
+2021-03-09 13:00:23 - [TEST_STEP][PASSED] - click(findTestObject("Individual Value-B/RadioButton_Question_No_10 - DD")): Object: 'Object Repository/Individual Value-B/RadioButton_Question_No_10 - DD' is clicked on
+
+2021-03-09 13:00:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Individual Value-B/RadioButton_Question_No_10 - DD' is clicked on
+
+2021-03-09 13:00:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-03-09 13:00:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-03-09 13:00:24 - [TEST_STEP][PASSED] - click(findTestObject("Individual Value-B/Button_Next")): Object: 'Object Repository/Individual Value-B/Button_Next' is clicked on
+
+2021-03-09 13:00:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Individual Value-B/Button_Next' is clicked on
+
+2021-03-09 13:00:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-03-09 13:00:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-03-09 13:00:25 - [TEST_STEP][PASSED] - click(findTestObject("Individual Value-B/RadioButton_Question_No_11 - DD")): Object: 'Object Repository/Individual Value-B/RadioButton_Question_No_11 - DD' is clicked on
+
+2021-03-09 13:00:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Individual Value-B/RadioButton_Question_No_11 - DD' is clicked on
+
+2021-03-09 13:00:25 - [TEST_STEP][PASSED] - click(findTestObject("Individual Value-B/RadioButton_Question_No_12 - DD")): Object: 'Object Repository/Individual Value-B/RadioButton_Question_No_12 - DD' is clicked on
+
+2021-03-09 13:00:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Individual Value-B/RadioButton_Question_No_12 - DD' is clicked on
+
+2021-03-09 13:00:25 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Leadership/Button_Next"), 3): Scroll to object 'Object Repository/Leadership/Button_Next' successfully
+
+2021-03-09 13:00:26 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Leadership/Button_Next' successfully
+
+2021-03-09 13:00:26 - [TEST_STEP][PASSED] - click(findTestObject("Individual Value-B/RadioButton_Question_No_13 - DD")): Object: 'Object Repository/Individual Value-B/RadioButton_Question_No_13 - DD' is clicked on
+
+2021-03-09 13:00:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Individual Value-B/RadioButton_Question_No_13 - DD' is clicked on
+
+2021-03-09 13:00:26 - [TEST_STEP][PASSED] - click(findTestObject("Individual Value-B/RadioButton_Question_No_14 - DD")): Object: 'Object Repository/Individual Value-B/RadioButton_Question_No_14 - DD' is clicked on
+
+2021-03-09 13:00:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Individual Value-B/RadioButton_Question_No_14 - DD' is clicked on
+
+2021-03-09 13:00:26 - [TEST_STEP][PASSED] - click(findTestObject("Individual Value-B/RadioButton_Question_No_15 - DD")): Object: 'Object Repository/Individual Value-B/RadioButton_Question_No_15 - DD' is clicked on
+
+2021-03-09 13:00:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Individual Value-B/RadioButton_Question_No_15 - DD' is clicked on
+
+2021-03-09 13:00:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-03-09 13:00:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-03-09 13:00:27 - [TEST_STEP][PASSED] - click(findTestObject("Individual Value-B/Button_Next")): Object: 'Object Repository/Individual Value-B/Button_Next' is clicked on
+
+2021-03-09 13:00:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Individual Value-B/Button_Next' is clicked on
+
+2021-03-09 13:00:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-03-09 13:00:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-03-09 13:00:29 - [TEST_STEP][PASSED] - click(findTestObject("Individual Value-B/RadioButton_Question_No_16 - DD")): Object: 'Object Repository/Individual Value-B/RadioButton_Question_No_16 - DD' is clicked on
+
+2021-03-09 13:00:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Individual Value-B/RadioButton_Question_No_16 - DD' is clicked on
+
+2021-03-09 13:00:29 - [TEST_STEP][PASSED] - click(findTestObject("Individual Value-B/RadioButton_Question_No_17 - DD")): Object: 'Object Repository/Individual Value-B/RadioButton_Question_No_17 - DD' is clicked on
+
+2021-03-09 13:00:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Individual Value-B/RadioButton_Question_No_17 - DD' is clicked on
+
+2021-03-09 13:00:29 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Leadership/Button_Next"), 3): Scroll to object 'Object Repository/Leadership/Button_Next' successfully
+
+2021-03-09 13:00:29 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Leadership/Button_Next' successfully
+
+2021-03-09 13:00:29 - [TEST_STEP][PASSED] - click(findTestObject("Individual Value-B/RadioButton_Question_No_18 - DD")): Object: 'Object Repository/Individual Value-B/RadioButton_Question_No_18 - DD' is clicked on
+
+2021-03-09 13:00:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Individual Value-B/RadioButton_Question_No_18 - DD' is clicked on
+
+2021-03-09 13:00:29 - [TEST_STEP][PASSED] - click(findTestObject("Individual Value-B/RadioButton_Question_No_19 - DD")): Object: 'Object Repository/Individual Value-B/RadioButton_Question_No_19 - DD' is clicked on
+
+2021-03-09 13:00:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Individual Value-B/RadioButton_Question_No_19 - DD' is clicked on
+
+2021-03-09 13:00:30 - [TEST_STEP][PASSED] - click(findTestObject("Individual Value-B/RadioButton_Question_No_20 - DD")): Object: 'Object Repository/Individual Value-B/RadioButton_Question_No_20 - DD' is clicked on
+
+2021-03-09 13:00:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Individual Value-B/RadioButton_Question_No_20 - DD' is clicked on
+
+2021-03-09 13:00:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-03-09 13:00:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-03-09 13:00:31 - [TEST_STEP][PASSED] - click(findTestObject("Individual Value-B/Button_Submit")): Object: 'Object Repository/Individual Value-B/Button_Submit' is clicked on
+
+2021-03-09 13:00:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Individual Value-B/Button_Submit' is clicked on
+
+2021-03-09 13:00:31 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-03-09 13:00:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\yubas\\git\\pamela-survey\\Reports\\20210309_125948\\Survey Individual Value-B\\20210309_125948\\1615269632045.png]]
+
+2021-03-09 13:00:32 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-03-09 13:00:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-03-09 13:00:34 - [TEST_STEP][PASSED] - click(findTestObject("Individual Value-B/Button_Home")): Object: 'Object Repository/Individual Value-B/Button_Home' is clicked on
+
+2021-03-09 13:00:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Individual Value-B/Button_Home' is clicked on
+
+2021-03-09 13:00:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-03-09 13:00:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-03-09 13:00:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-03-09 13:00:39 - [MESSAGE][PASSED] - Browser is closed
+
+2021-03-09 13:00:41 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Individual Value-B - DD' .
+
+2021-03-09 13:00:41 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Individual Value-B - DD' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-03-09 12:59:57 - [TEST_SUITE][INCOMPLETE] - Survey Individual Value-B: null]]></system-out>
+      <system-err><![CDATA[2021-03-09 12:59:57 - [TEST_SUITE][INCOMPLETE] - Survey Individual Value-B: null]]></system-err>
+   </testsuite>
+</testsuites>

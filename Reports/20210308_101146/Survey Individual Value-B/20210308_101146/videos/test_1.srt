@@ -1,0 +1,44 @@
+1
+00:00:00,794 --> 00:00:03,943
+1. openBrowser("")
+
+2
+00:00:03,956 --> 00:00:07,932
+5. navigateToUrl("https://sister-uat.taf.co.id/pamela/Login.aspx?ReturnUrl=%2fpamela")
+
+3
+00:00:07,933 --> 00:00:09,993
+9. delay(2)
+
+4
+00:00:09,993 --> 00:00:10,361
+13. setText(findTestObject("Login/Field_Username"), username)
+
+5
+00:00:10,361 --> 00:00:10,663
+17. setText(findTestObject("Login/Field_Password"), password)
+
+6
+00:00:10,664 --> 00:00:10,873
+21. click(findTestObject("Login/Button_Sign_In"))
+
+7
+00:00:10,874 --> 00:00:12,891
+25. delay(2)
+
+8
+00:00:12,894 --> 00:00:22,338
+29. click(findTestObject("Individual Value-B/Button_Individual_Value_B"))
+
+9
+00:00:22,340 --> 00:00:24,357
+33. delay(2)
+
+10
+00:00:24,358 --> 00:00:24,427
+37. tObj = findTestObject("Individual Value-B/RadioButton_Question_No_01 - DD", ["value":"4"])
+
+11
+00:00:24,441 --> 00:00:46,446
+41. click(tObj)
+
