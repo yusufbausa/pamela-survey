@@ -6,19 +6,18 @@
    <elementGuidId>03cf338d-b682-41ff-aa9e-77b3dcef964a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//input[@id='1|'+username+'|UTAMA|SAYA_MENGERTI_TUGAS-TUGAS_YANG_HARUS_DIKERJAKAN'])['+q1+']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//input[@id='1|'+username+'|UTAMA|SAYA_MENJAGA_KUALITAS_PEKERJAAN_(KERAPIAN,_KEAKURATAN,_KELENGKAPAN_DATA_)'])['+q1+']</value>
+         <key>BASIC</key>
+         <value>/html/body/section[2]/div/div/div/form/div[3]/div/div/div/div[3]/div[1]/table/tbody/tr/td[6]/input</value>
       </entry>
       <entry>
          <key>IMAGE</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/section[2]/div/div/div/form/div[3]/div/div/div/div[3]/div[1]/table/tbody/tr/td[6]/input</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

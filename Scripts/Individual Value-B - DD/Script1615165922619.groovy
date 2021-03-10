@@ -33,7 +33,7 @@ WebUI.click(findTestObject('Individual Value-B/Button_Individual_Value_B'))
 WebUI.delay(2)
 
 //Survey Page 1
-WebUI.click(findTestObject('Individual Value-B/RadioButton_Question_No_01 - DD', [('username') : '', ('q1') : '']))
+WebUI.click(findTestObject('Individual Value-B/RadioButton_Question_No_01 - DD'))
 WebUI.click(findTestObject('Individual Value-B/RadioButton_Question_No_02 - DD'))
 WebUI.scrollToElement(findTestObject('Leadership/Button_Next'), 3)
 WebUI.click(findTestObject('Individual Value-B/RadioButton_Question_No_03 - DD'))

@@ -1,0 +1,196 @@
+1
+00:00:00,631 --> 00:00:03,959
+1. openBrowser("")
+
+2
+00:00:03,975 --> 00:00:08,392
+5. navigateToUrl("https://sister-uat.taf.co.id/pamela/Login.aspx?ReturnUrl=%2fpamela")
+
+3
+00:00:08,393 --> 00:00:10,450
+9. delay(2)
+
+4
+00:00:10,451 --> 00:00:10,787
+13. setText(findTestObject("Login/Field_Username"), username)
+
+5
+00:00:10,788 --> 00:00:11,087
+17. setText(findTestObject("Login/Field_Password"), password)
+
+6
+00:00:11,089 --> 00:00:11,289
+21. click(findTestObject("Login/Button_Sign_In"))
+
+7
+00:00:11,290 --> 00:00:13,300
+25. delay(2)
+
+8
+00:00:13,301 --> 00:00:17,867
+29. click(findTestObject("Individual Value-B/Button_Individual_Value_B"))
+
+9
+00:00:17,868 --> 00:00:19,880
+33. delay(2)
+
+10
+00:00:19,881 --> 00:00:20,103
+37. click(findTestObject("Individual Value-B/RadioButton_Question_No_01 - DD", ["username":"", "q1":""]))
+
+11
+00:00:20,104 --> 00:00:20,267
+41. click(findTestObject("Individual Value-B/RadioButton_Question_No_02 - DD"))
+
+12
+00:00:20,268 --> 00:00:20,440
+45. scrollToElement(findTestObject("Leadership/Button_Next"), 3)
+
+13
+00:00:20,441 --> 00:00:20,702
+49. click(findTestObject("Individual Value-B/RadioButton_Question_No_03 - DD"))
+
+14
+00:00:20,703 --> 00:00:52,218
+53. click(findTestObject("Individual Value-B/RadioButton_Question_No_04 - DD"))
+
+15
+00:00:52,219 --> 00:00:52,454
+57. click(findTestObject("Individual Value-B/RadioButton_Question_No_05 - DD"))
+
+16
+00:00:52,456 --> 00:00:53,472
+61. delay(1)
+
+17
+00:00:53,474 --> 00:00:53,643
+65. click(findTestObject("Individual Value-B/Button_Next"))
+
+18
+00:00:53,644 --> 00:00:54,657
+69. delay(1)
+
+19
+00:00:54,658 --> 00:00:54,808
+73. click(findTestObject("Individual Value-B/RadioButton_Question_No_06 - DD"))
+
+20
+00:00:54,808 --> 00:00:55,009
+77. click(findTestObject("Individual Value-B/RadioButton_Question_No_07 - DD"))
+
+21
+00:00:55,010 --> 00:00:55,143
+81. scrollToElement(findTestObject("Leadership/Button_Next"), 3)
+
+22
+00:00:55,144 --> 00:00:55,308
+85. click(findTestObject("Individual Value-B/RadioButton_Question_No_08 - DD"))
+
+23
+00:00:55,310 --> 00:00:55,514
+89. click(findTestObject("Individual Value-B/RadioButton_Question_No_09 - DD"))
+
+24
+00:00:55,515 --> 00:00:55,685
+93. click(findTestObject("Individual Value-B/RadioButton_Question_No_10 - DD"))
+
+25
+00:00:55,685 --> 00:00:56,696
+97. delay(1)
+
+26
+00:00:56,696 --> 00:00:56,842
+101. click(findTestObject("Individual Value-B/Button_Next"))
+
+27
+00:00:56,844 --> 00:00:57,851
+105. delay(1)
+
+28
+00:00:57,852 --> 00:00:58,010
+109. click(findTestObject("Individual Value-B/RadioButton_Question_No_11 - DD"))
+
+29
+00:00:58,012 --> 00:00:58,167
+113. click(findTestObject("Individual Value-B/RadioButton_Question_No_12 - DD"))
+
+30
+00:00:58,168 --> 00:00:58,302
+117. scrollToElement(findTestObject("Leadership/Button_Next"), 3)
+
+31
+00:00:58,303 --> 00:00:58,481
+121. click(findTestObject("Individual Value-B/RadioButton_Question_No_13 - DD"))
+
+32
+00:00:58,482 --> 00:00:58,630
+125. click(findTestObject("Individual Value-B/RadioButton_Question_No_14 - DD"))
+
+33
+00:00:58,631 --> 00:00:58,783
+129. click(findTestObject("Individual Value-B/RadioButton_Question_No_15 - DD"))
+
+34
+00:00:58,784 --> 00:00:59,797
+133. delay(1)
+
+35
+00:00:59,798 --> 00:00:59,931
+137. click(findTestObject("Individual Value-B/Button_Next"))
+
+36
+00:00:59,932 --> 00:01:00,937
+141. delay(1)
+
+37
+00:01:00,938 --> 00:01:01,095
+145. click(findTestObject("Individual Value-B/RadioButton_Question_No_16 - DD"))
+
+38
+00:01:01,096 --> 00:01:01,254
+149. click(findTestObject("Individual Value-B/RadioButton_Question_No_17 - DD"))
+
+39
+00:01:01,254 --> 00:01:01,371
+153. scrollToElement(findTestObject("Leadership/Button_Next"), 3)
+
+40
+00:01:01,372 --> 00:01:01,507
+157. click(findTestObject("Individual Value-B/RadioButton_Question_No_18 - DD"))
+
+41
+00:01:01,507 --> 00:01:01,675
+161. click(findTestObject("Individual Value-B/RadioButton_Question_No_19 - DD"))
+
+42
+00:01:01,676 --> 00:01:01,828
+165. click(findTestObject("Individual Value-B/RadioButton_Question_No_20 - DD"))
+
+43
+00:01:01,829 --> 00:01:02,840
+169. delay(1)
+
+44
+00:01:02,841 --> 00:01:02,987
+173. click(findTestObject("Individual Value-B/Button_Submit"))
+
+45
+00:01:02,988 --> 00:01:03,358
+177. takeScreenshot()
+
+46
+00:01:03,358 --> 00:01:05,366
+181. delay(2)
+
+47
+00:01:05,367 --> 00:01:36,754
+185. click(findTestObject("Individual Value-B/Button_Home"))
+
+48
+00:01:36,755 --> 00:01:39,761
+189. delay(3)
+
+49
+00:01:39,762 --> 00:01:40,662
+193. closeBrowser()
+

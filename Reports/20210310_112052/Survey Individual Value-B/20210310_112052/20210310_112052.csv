@@ -1,0 +1,54 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Survey Individual Value-B,Chrome 89.0.4389.82,,,2021-03-10 11:21:02,2021-03-10 11:22:46,1m - 44.503s,FAILED
+,,,,,,,
+Test Cases/Individual Value-B - DD,Chrome 89.0.4389.82,,,2021-03-10 11:21:03,2021-03-10 11:22:46,1m - 42.952s,FAILED
+"openBrowser("""")",Chrome 89.0.4389.82,,,2021-03-10 11:21:04,2021-03-10 11:21:07,3.335s,PASSED
+"navigateToUrl(""https://sister-uat.taf.co.id/pamela/Login.aspx?ReturnUrl=%2fpamela"")",Chrome 89.0.4389.82,,,2021-03-10 11:21:07,2021-03-10 11:21:12,4.418s,PASSED
+delay(2),Chrome 89.0.4389.82,,,2021-03-10 11:21:12,2021-03-10 11:21:14,2.056s,PASSED
+"setText(findTestObject(""Login/Field_Username""), username)",Chrome 89.0.4389.82,,,2021-03-10 11:21:14,2021-03-10 11:21:14,0.335s,PASSED
+"setText(findTestObject(""Login/Field_Password""), password)",Chrome 89.0.4389.82,,,2021-03-10 11:21:14,2021-03-10 11:21:15,0.301s,PASSED
+"click(findTestObject(""Login/Button_Sign_In""))",Chrome 89.0.4389.82,,,2021-03-10 11:21:15,2021-03-10 11:21:15,0.202s,PASSED
+delay(2),Chrome 89.0.4389.82,,,2021-03-10 11:21:15,2021-03-10 11:21:17,2.011s,PASSED
+"click(findTestObject(""Individual Value-B/Button_Individual_Value_B""))",Chrome 89.0.4389.82,,,2021-03-10 11:21:17,2021-03-10 11:21:21,4.567s,PASSED
+delay(2),Chrome 89.0.4389.82,,,2021-03-10 11:21:21,2021-03-10 11:21:23,2.013s,PASSED
+"click(findTestObject(""Individual Value-B/RadioButton_Question_No_01 - DD"", [""username"":"""", ""q1"":""""]))",Chrome 89.0.4389.82,,,2021-03-10 11:21:23,2021-03-10 11:21:24,0.222s,PASSED
+"click(findTestObject(""Individual Value-B/RadioButton_Question_No_02 - DD""))",Chrome 89.0.4389.82,,,2021-03-10 11:21:24,2021-03-10 11:21:24,0.164s,PASSED
+"scrollToElement(findTestObject(""Leadership/Button_Next""), 3)",Chrome 89.0.4389.82,,,2021-03-10 11:21:24,2021-03-10 11:21:24,0.173s,PASSED
+"click(findTestObject(""Individual Value-B/RadioButton_Question_No_03 - DD""))",Chrome 89.0.4389.82,,,2021-03-10 11:21:24,2021-03-10 11:21:24,0.237s,PASSED
+"click(findTestObject(""Individual Value-B/RadioButton_Question_No_04 - DD""))",Chrome 89.0.4389.82,,,2021-03-10 11:21:24,2021-03-10 11:21:56,31.515s,FAILED
+"click(findTestObject(""Individual Value-B/RadioButton_Question_No_05 - DD""))",Chrome 89.0.4389.82,,,2021-03-10 11:21:56,2021-03-10 11:21:56,0.239s,PASSED
+delay(1),Chrome 89.0.4389.82,,,2021-03-10 11:21:56,2021-03-10 11:21:57,1.016s,PASSED
+"click(findTestObject(""Individual Value-B/Button_Next""))",Chrome 89.0.4389.82,,,2021-03-10 11:21:57,2021-03-10 11:21:57,0.170s,PASSED
+delay(1),Chrome 89.0.4389.82,,,2021-03-10 11:21:57,2021-03-10 11:21:58,1.013s,PASSED
+"click(findTestObject(""Individual Value-B/RadioButton_Question_No_06 - DD""))",Chrome 89.0.4389.82,,,2021-03-10 11:21:58,2021-03-10 11:21:58,0.151s,PASSED
+"click(findTestObject(""Individual Value-B/RadioButton_Question_No_07 - DD""))",Chrome 89.0.4389.82,,,2021-03-10 11:21:58,2021-03-10 11:21:58,0.202s,PASSED
+"scrollToElement(findTestObject(""Leadership/Button_Next""), 3)",Chrome 89.0.4389.82,,,2021-03-10 11:21:58,2021-03-10 11:21:59,0.133s,PASSED
+"click(findTestObject(""Individual Value-B/RadioButton_Question_No_08 - DD""))",Chrome 89.0.4389.82,,,2021-03-10 11:21:59,2021-03-10 11:21:59,0.166s,PASSED
+"click(findTestObject(""Individual Value-B/RadioButton_Question_No_09 - DD""))",Chrome 89.0.4389.82,,,2021-03-10 11:21:59,2021-03-10 11:21:59,0.205s,PASSED
+"click(findTestObject(""Individual Value-B/RadioButton_Question_No_10 - DD""))",Chrome 89.0.4389.82,,,2021-03-10 11:21:59,2021-03-10 11:21:59,0.170s,PASSED
+delay(1),Chrome 89.0.4389.82,,,2021-03-10 11:21:59,2021-03-10 11:22:00,1.011s,PASSED
+"click(findTestObject(""Individual Value-B/Button_Next""))",Chrome 89.0.4389.82,,,2021-03-10 11:22:00,2021-03-10 11:22:00,0.147s,PASSED
+delay(1),Chrome 89.0.4389.82,,,2021-03-10 11:22:00,2021-03-10 11:22:01,1.008s,PASSED
+"click(findTestObject(""Individual Value-B/RadioButton_Question_No_11 - DD""))",Chrome 89.0.4389.82,,,2021-03-10 11:22:01,2021-03-10 11:22:01,0.159s,PASSED
+"click(findTestObject(""Individual Value-B/RadioButton_Question_No_12 - DD""))",Chrome 89.0.4389.82,,,2021-03-10 11:22:01,2021-03-10 11:22:02,0.155s,PASSED
+"scrollToElement(findTestObject(""Leadership/Button_Next""), 3)",Chrome 89.0.4389.82,,,2021-03-10 11:22:02,2021-03-10 11:22:02,0.136s,PASSED
+"click(findTestObject(""Individual Value-B/RadioButton_Question_No_13 - DD""))",Chrome 89.0.4389.82,,,2021-03-10 11:22:02,2021-03-10 11:22:02,0.178s,PASSED
+"click(findTestObject(""Individual Value-B/RadioButton_Question_No_14 - DD""))",Chrome 89.0.4389.82,,,2021-03-10 11:22:02,2021-03-10 11:22:02,0.149s,PASSED
+"click(findTestObject(""Individual Value-B/RadioButton_Question_No_15 - DD""))",Chrome 89.0.4389.82,,,2021-03-10 11:22:02,2021-03-10 11:22:02,0.152s,PASSED
+delay(1),Chrome 89.0.4389.82,,,2021-03-10 11:22:02,2021-03-10 11:22:03,1.015s,PASSED
+"click(findTestObject(""Individual Value-B/Button_Next""))",Chrome 89.0.4389.82,,,2021-03-10 11:22:03,2021-03-10 11:22:03,0.133s,PASSED
+delay(1),Chrome 89.0.4389.82,,,2021-03-10 11:22:03,2021-03-10 11:22:04,1.006s,PASSED
+"click(findTestObject(""Individual Value-B/RadioButton_Question_No_16 - DD""))",Chrome 89.0.4389.82,,,2021-03-10 11:22:04,2021-03-10 11:22:05,0.159s,PASSED
+"click(findTestObject(""Individual Value-B/RadioButton_Question_No_17 - DD""))",Chrome 89.0.4389.82,,,2021-03-10 11:22:05,2021-03-10 11:22:05,0.158s,PASSED
+"scrollToElement(findTestObject(""Leadership/Button_Next""), 3)",Chrome 89.0.4389.82,,,2021-03-10 11:22:05,2021-03-10 11:22:05,0.118s,PASSED
+"click(findTestObject(""Individual Value-B/RadioButton_Question_No_18 - DD""))",Chrome 89.0.4389.82,,,2021-03-10 11:22:05,2021-03-10 11:22:05,0.135s,PASSED
+"click(findTestObject(""Individual Value-B/RadioButton_Question_No_19 - DD""))",Chrome 89.0.4389.82,,,2021-03-10 11:22:05,2021-03-10 11:22:05,0.169s,PASSED
+"click(findTestObject(""Individual Value-B/RadioButton_Question_No_20 - DD""))",Chrome 89.0.4389.82,,,2021-03-10 11:22:05,2021-03-10 11:22:05,0.152s,PASSED
+delay(1),Chrome 89.0.4389.82,,,2021-03-10 11:22:05,2021-03-10 11:22:06,1.012s,PASSED
+"click(findTestObject(""Individual Value-B/Button_Submit""))",Chrome 89.0.4389.82,,,2021-03-10 11:22:06,2021-03-10 11:22:06,0.147s,PASSED
+takeScreenshot(),Chrome 89.0.4389.82,,,2021-03-10 11:22:06,2021-03-10 11:22:07,0.368s,PASSED
+delay(2),Chrome 89.0.4389.82,,,2021-03-10 11:22:07,2021-03-10 11:22:09,2.009s,PASSED
+"click(findTestObject(""Individual Value-B/Button_Home""))",Chrome 89.0.4389.82,,,2021-03-10 11:22:09,2021-03-10 11:22:40,31.387s,FAILED
+delay(3),Chrome 89.0.4389.82,,,2021-03-10 11:22:40,2021-03-10 11:22:43,3.007s,PASSED
+closeBrowser(),Chrome 89.0.4389.82,,,2021-03-10 11:22:43,2021-03-10 11:22:44,0.892s,PASSED
+Video,Chrome 89.0.4389.82,,,2021-03-10 11:22:46,2021-03-10 11:22:46,0.001s,PASSED
